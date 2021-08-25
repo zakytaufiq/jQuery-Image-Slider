@@ -53,17 +53,6 @@ $(document).ready(function(){
         }
     });
 
-    // slide show the slider 
-    slideShow()
-    function slideShow() {
-        var i;
-        var slides = document.getElementsByClassName("slide");
-        for (i = 1; i < slides.length; i++) {
-            mainslider.nextSlide();
-        }
-        setTimeout(slideShow, 10000);
-    }
-
     $(".slide#satu").backstretch("images/image1.jpg");
     $(".slide#dua").backstretch("images/image2.jpg");
     $(".slide#tiga").backstretch("images/image3.jpg");
